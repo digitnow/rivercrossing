@@ -1,3 +1,7 @@
 package state
 
-func ViewState() ... 
+import "rsc.io/quote"
+
+func GetQuote() string {
+    quote.Hello()
+} 
