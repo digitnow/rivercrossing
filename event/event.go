@@ -8,7 +8,7 @@ import (
 func main() {
 	fmt.Println(state.ViewState())
 
-	state.Enterboat()
+	state.EnterBoat()
 	fmt.Println(state.ViewState())
 
 	state.Rivercross()
