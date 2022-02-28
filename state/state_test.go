@@ -2,7 +2,7 @@ package state
 
 import (
     "testing"
-    "github.com/ThomasTvedten/rivercrossing/State"
+    "github.com/digitnow/rivercrossing/state"
 )
 
 func TestCheckState(t *testing.T) {
