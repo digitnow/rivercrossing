@@ -1,6 +1,15 @@
 package state
 
+var state = "[hund katt hamster HS ---\\ \\--/---------/---]"
+
+func EnterBoat() {
+	state = "[hund katt hamster ---\\ \\_HS_/----------/---]"
+}
+
+func Rivercross() {
+	state = "[hun katt hamster ---\\ \\----------\\-HS-/---]"
+}
+
 func ViewState() string {
-    // Sjekke data som er lagret ("kylling til venstre", "rev til venstre")
-    return "[kylling rev korn hs ---\\ \\__/ _________________/---]"
+	return state
 }

@@ -1,5 +1,16 @@
-package event
+package main
 
-func Put(item string) string {
-    return "[kylling rev korn ---\\ \\_korn_/ _________________/---]"
+import (
+	"fmt"
+	"github.com/digitnow/rivercrossing/state"
+)
+
+func main() {
+	fmt.Println(state.ViewState())
+
+	state.Enterboat()
+	fmt.Println(state.ViewState())
+
+	state.Rivercross()
+	fmt.Println(state.ViewState())
 }
